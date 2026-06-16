@@ -1,0 +1,6 @@
+.DS_Store
+dist/
+assets/ogp-work.png
+logs/*.log
+data/raw/
+data/drafts/

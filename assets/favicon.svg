@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="FIREまとめログ">
+  <defs>
+    <linearGradient id="markShade" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#08756d"/>
+      <stop offset="1" stop-color="#075f59"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="12" fill="url(#markShade)"/>
+  <path d="M0 45c12 6 25 8 64 3v16H0z" fill="#04423e" opacity=".28"/>
+  <text
+    x="32"
+    y="42"
+    fill="#ffffff"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="34"
+    font-weight="800"
+    text-anchor="middle"
+  >F</text>
+</svg>

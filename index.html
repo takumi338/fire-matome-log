@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FIREまとめログ | 5chの早期リタイア・資産形成まとめ</title>
+    <meta
+      name="description"
+      content="FIRE、早期リタイア、資産形成、NISA、節約、副業などの5chスレッドを読みやすくまとめるサイトです。"
+    />
+    <meta name="keywords" content="FIRE,早期リタイア,資産形成,5chまとめ,NISA,節約,副業,セミリタイア" />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta name="theme-color" content="#08756d" />
+    <link rel="canonical" href="https://fire.development-test.com/" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg?v=20260616-logo" />
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="og:site_name" content="FIREまとめログ" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="FIREまとめログ | 5chの早期リタイア・資産形成まとめ" />
+    <meta
+      property="og:description"
+      content="FIRE、早期リタイア、資産形成、NISA、節約、副業などの5chスレッドを読みやすくまとめるサイトです。"
+    />
+    <meta property="og:url" content="https://fire.development-test.com/" />
+    <meta property="og:image" content="https://fire.development-test.com/assets/ogp.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="FIREまとめログ" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="FIREまとめログ | 5chの早期リタイア・資産形成まとめ" />
+    <meta
+      name="twitter:description"
+      content="FIRE、早期リタイア、資産形成、NISA、節約、副業などの5chスレッドを読みやすくまとめるサイトです。"
+    />
+    <meta name="twitter:image" content="https://fire.development-test.com/assets/ogp.png" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "FIREまとめログ",
+        "url": "https://fire.development-test.com/",
+        "description": "FIRE、早期リタイア、資産形成、NISA、節約、副業などの5chスレッドを読みやすくまとめるサイトです。",
+        "inLanguage": "ja"
+      }
+    </script>
+    <link rel="stylesheet" href="styles.css?v=20260616-seo" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="topline">
+        <a class="brand" href="#top" aria-label="FIREまとめログ トップ">
+          <span class="brand-mark">F</span>
+          <span>
+            <strong>FIREまとめログ</strong>
+            <small>経済的自立と早期リタイアの反応集</small>
+          </span>
+        </a>
+        <form class="search" id="search-form" role="search">
+          <label class="visually-hidden" for="search-input">記事検索</label>
+          <input id="search-input" type="search" placeholder="FIRE、投資、節約で検索" />
+          <button type="submit" aria-label="検索">⌕</button>
+        </form>
+      </div>
+      <nav class="category-nav" aria-label="カテゴリ">
+        <button class="category-button is-active" data-category="all" type="button">総合</button>
+        <button class="category-button" data-category="資産形成" type="button">資産形成</button>
+        <button class="category-button" data-category="節約" type="button">節約</button>
+        <button class="category-button" data-category="副業" type="button">副業</button>
+        <button class="category-button" data-category="退職後生活" type="button">退職後生活</button>
+        <button class="category-button" data-category="失敗談" type="button">失敗談</button>
+      </nav>
+    </header>
+
+    <main id="top" class="page-shell">
+      <div class="layout">
+        <section class="content-area" aria-label="記事一覧と本文">
+          <article class="feature" id="feature-article" aria-label="本日のピックアップ">
+            <img src="assets/hero-fire.png" alt="東京の朝、投資グラフを表示したノートパソコンと資産計画ノート" />
+            <div class="feature-copy">
+              <span class="eyebrow">本日のピックアップ</span>
+              <h1>FIRE民「退職より先に、生活費の見える化で勝負が決まる」</h1>
+              <p>投資額、固定費、働き方。早期リタイアを目指す人たちのリアル寄りな議論を読みやすく整理。</p>
+            </div>
+          </article>
+
+          <div class="toolbar">
+            <div>
+              <p class="section-kicker">新着まとめ</p>
+              <h2 id="list-title">総合スレッド</h2>
+            </div>
+            <label class="sort-label">
+              <span>並び替え</span>
+              <select id="sort-select">
+                <option value="latest">新着順</option>
+                <option value="popular">人気順</option>
+                <option value="comments">コメント順</option>
+              </select>
+            </label>
+          </div>
+
+          <div id="article-list" class="article-list" aria-live="polite"></div>
+          <nav id="pagination" class="pagination" aria-label="記事一覧ページ"></nav>
+        </section>
+
+        <aside class="sidebar" aria-label="サイドバー">
+          <section class="side-block">
+            <h2>人気記事</h2>
+            <ol id="ranking-list" class="ranking-list"></ol>
+          </section>
+
+          <section class="side-block">
+            <h2>人気のタグ</h2>
+            <div id="tag-list" class="tag-list"></div>
+          </section>
+        </aside>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p>FIREまとめログ</p>
+    </footer>
+
+    <script src="data/articles.generated.js?v=20260616-seo"></script>
+    <script src="script.js?v=20260616-seo"></script>
+  </body>
+</html>

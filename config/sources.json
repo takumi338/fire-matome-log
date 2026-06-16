@@ -1,0 +1,42 @@
+{
+  "siteName": "FIREまとめログ",
+  "userAgent": "FireMatomePrototype/0.1 (+https://example.com/contact)",
+  "maxDraftsPerRun": 5,
+  "maxThreadsPerList": 80,
+  "maxRepliesPerDraft": 30,
+  "maxReplyInputLength": 520,
+  "maxReplyOutputLength": 220,
+  "minReplyScore": 2,
+  "keepHistoricalDrafts": false,
+  "sources": [
+    {
+      "name": "Sample FIRE thread",
+      "type": "sample-thread",
+      "enabled": false,
+      "path": "samples/fire-thread-sample.html"
+    },
+    {
+      "name": "5ch 投資一般 subject",
+      "type": "5ch-subject",
+      "enabled": true,
+      "url": "https://medaka.5ch.net/market/subject.txt",
+      "encoding": "shift_jis",
+      "maxThreads": 80,
+      "note": "投資一般板のsubject.txtからFIRE/セミリタイア/金融資産系のスレッドを抽出します。"
+    },
+    {
+      "name": "Real 5ch thread URL",
+      "type": "thread-html",
+      "enabled": false,
+      "url": "https://example.com/test/read.cgi/example/0000000000/",
+      "note": "実運用では、転載可否とrobots.txtを確認したうえで実際のスレURLに差し替えてください。"
+    },
+    {
+      "name": "Real 5ch list page",
+      "type": "thread-list",
+      "enabled": false,
+      "url": "https://example.com/",
+      "note": "スレ一覧ページから /test/read.cgi/ を含むリンクを拾い、FIRE関連度が高いものだけ取得します。"
+    }
+  ]
+}

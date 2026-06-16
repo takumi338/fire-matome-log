@@ -1,0 +1,4 @@
+# 毎日 07:15 に下書き生成を実行する例です。
+# 使う場合は `crontab -e` で下の1行を登録してください。
+#
+# 15 7 * * * cd /Users/ttt/Downloads/コーデックス/fire-matome-prototype && /usr/local/bin/node scripts/daily-fire-matome.mjs --quiet >> logs/daily-fire-matome.log 2>&1

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fire.development-test.com/sitemap.xml

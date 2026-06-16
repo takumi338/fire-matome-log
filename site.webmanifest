@@ -1,0 +1,23 @@
+{
+  "name": "FIREまとめログ",
+  "short_name": "FIREまとめ",
+  "description": "FIRE、早期リタイア、資産形成、NISA、節約、副業などの5chスレッドを読みやすくまとめるサイトです。",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f8f3",
+  "theme_color": "#08756d",
+  "icons": [
+    {
+      "src": "/assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
