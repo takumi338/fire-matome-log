@@ -117,14 +117,16 @@ async function main() {
     collected.push(...result);
   }
 
-  const drafts = collected
+  const candidates = collected
     .map((thread) => buildDraft(thread, config))
     .filter(Boolean)
-    .sort((a, b) => b.titlePriority - a.titlePriority || b.score - a.score)
-    .slice(0, config.maxDraftsPerRun || 3);
-
+    .sort((a, b) => b.titlePriority - a.titlePriority || b.score - a.score);
   const existing = config.keepHistoricalDrafts === false ? [] : await readGeneratedArticles();
-  const merged = config.keepHistoricalDrafts === false ? drafts : mergeArticles(drafts, existing);
+  const existingKeys = new Set(existing.map(articleKey));
+  const drafts = candidates
+    .filter((article) => !existingKeys.has(articleKey(article)))
+    .slice(0, config.maxDraftsPerRun || 3);
+  const merged = config.keepHistoricalDrafts === false ? drafts : mergeArticles(drafts, existing, config.maxGeneratedArticles || 30);
   await writeGeneratedArticles(merged);
 
   const stamp = todayStamp();
@@ -652,16 +654,20 @@ async function readGeneratedArticles() {
   }
 }
 
-function mergeArticles(newDrafts, existing) {
+function mergeArticles(newDrafts, existing, maxArticles = 30) {
   const seen = new Set();
   return [...newDrafts, ...existing]
     .filter((article) => {
-      const key = article.sourceUrl || article.id;
+      const key = articleKey(article);
       if (seen.has(key)) return false;
       seen.add(key);
       return true;
     })
-    .slice(0, 30);
+    .slice(0, maxArticles);
+}
+
+function articleKey(article) {
+  return article.sourceUrl || article.id;
 }
 
 async function writeGeneratedArticles(articles) {

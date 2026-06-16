@@ -1,13 +1,14 @@
 {
   "siteName": "FIREまとめログ",
   "userAgent": "FireMatomePrototype/0.1 (+https://example.com/contact)",
-  "maxDraftsPerRun": 5,
+  "maxDraftsPerRun": 2,
+  "maxGeneratedArticles": 120,
   "maxThreadsPerList": 80,
   "maxRepliesPerDraft": 30,
   "maxReplyInputLength": 520,
   "maxReplyOutputLength": 220,
   "minReplyScore": 2,
-  "keepHistoricalDrafts": false,
+  "keepHistoricalDrafts": true,
   "sources": [
     {
       "name": "Sample FIRE thread",
