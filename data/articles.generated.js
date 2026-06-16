@@ -18,7 +18,7 @@ window.FIRE_GENERATED_ARTICLES = [
     "status": "draft",
     "sourceName": "5ch 投資一般 subject",
     "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1779513887/",
-    "generatedAt": "2026-06-16T07:15:05.353Z",
+    "generatedAt": "2026-06-16T07:26:39.901Z",
     "score": 179,
     "titlePriority": 120,
     "replies": [
@@ -103,7 +103,7 @@ window.FIRE_GENERATED_ARTICLES = [
     "status": "draft",
     "sourceName": "5ch 投資一般 subject",
     "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1770037756/",
-    "generatedAt": "2026-06-16T07:15:05.352Z",
+    "generatedAt": "2026-06-16T07:26:39.900Z",
     "score": 165,
     "titlePriority": 120,
     "replies": [
@@ -184,7 +184,7 @@ window.FIRE_GENERATED_ARTICLES = [
     "status": "draft",
     "sourceName": "5ch 投資一般 subject",
     "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1781319177/",
-    "generatedAt": "2026-06-16T07:15:05.364Z",
+    "generatedAt": "2026-06-16T07:26:39.915Z",
     "score": 1480,
     "titlePriority": 20,
     "replies": [
@@ -405,8 +405,8 @@ window.FIRE_GENERATED_ARTICLES = [
     "title": "金融資産3億円以上の人達の日常 28",
     "category": "失敗談",
     "date": "2026.06.16",
-    "views": 174870,
-    "comments": 356,
+    "views": 176030,
+    "comments": 357,
     "summary": "4%ルール、生活費、税金、暴落耐性を中心に、FIRE計画の現実ラインを話し合う流れ。",
     "conclusion": "金融資産3億円以上の人達の日常 28では、4%ルール、生活費、税金、暴落耐性を軸に投資先や積立の考え方、暴落時の耐性、仕事を続けるか辞めるかの現実感が話題になりました。全体としては、資産額だけで判断するより、生活費、現金余力、相場が悪い時の動き方、働き方の逃げ道まで含めてFIRE計画を見る流れです。",
     "thumbnail": "assets/thumb-withdrawal-plan.png",
@@ -419,8 +419,8 @@ window.FIRE_GENERATED_ARTICLES = [
     "status": "draft",
     "sourceName": "5ch 投資一般 subject",
     "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1780454400/",
-    "generatedAt": "2026-06-16T07:15:05.370Z",
-    "score": 1206,
+    "generatedAt": "2026-06-16T07:26:39.923Z",
+    "score": 1214,
     "titlePriority": 20,
     "replies": [
       [
@@ -550,13 +550,6 @@ window.FIRE_GENERATED_ARTICLES = [
         ">>152 パートナー候補評価に学歴や職業みたいな属性を重視するのはわりと普通かと。 あなただって乃木坂云々とか言って、容姿って属性を重視してるでしょ？"
       ],
       [
-        "159",
-        "",
-        "ID:/8+OSJef0",
-        "2026/06/10(水) 12:44:20.38",
-        ">>157 これは昔の話で今は違うと思う 今は見た目だけが最重要で、結婚となると年齢、次に所得が見られる ただ、良い女性はどんどん結婚していき婚活市場は高望みの身の程知らずしかいないと聞くが"
-      ],
-      [
         "215",
         "",
         "ID:NTUdAhzR0",
@@ -632,6 +625,13 @@ window.FIRE_GENERATED_ARTICLES = [
         "ID:DDr4b73t0",
         "2026/06/16(火) 09:32:01.66",
         ">>343 インデックスが強いのはSPIVA等の統計的事実だから、それを否定するつもりは無い。 ただあなたの場合、ここでインデックスをアウトパフォームしてると自己申告してる人を一律に腐すのがよくない。 もちろん強運だけできた人はいるかもしれん。 けど市場は案外非効率だから、バフェット言うところの「グレアム=ドッド村の猿」も結構いるかもよ。"
+      ],
+      [
+        "357",
+        "",
+        "ID:IfVJjEFk0",
+        "2026/06/16(火) 16:22:12.81",
+        "日々の投資信託で100万動くよりIPOの売り抜け4万の方がうれしい 焼肉食いに行こうかな"
       ]
     ]
   },
@@ -640,8 +640,8 @@ window.FIRE_GENERATED_ARTICLES = [
     "title": "金融資産5000万円以上1億円未満の人達の日常 116",
     "category": "失敗談",
     "date": "2026.06.16",
-    "views": 121655,
-    "comments": 241,
+    "views": 122235,
+    "comments": 242,
     "summary": "税金、暴落耐性、退職ライン、NISAを中心に、FIRE計画の現実ラインを話し合う流れ。",
     "conclusion": "金融資産5000万円以上1億円未満の人達の日常 116では、税金、暴落耐性、退職ライン、NISAを軸に投資先や積立の考え方、暴落時の耐性、仕事を続けるか辞めるかの現実感が話題になりました。全体としては、資産額だけで判断するより、生活費、現金余力、相場が悪い時の動き方、働き方の逃げ道まで含めてFIRE計画を見る流れです。",
     "thumbnail": "assets/thumb-tax-paperwork.png",
@@ -654,8 +654,8 @@ window.FIRE_GENERATED_ARTICLES = [
     "status": "draft",
     "sourceName": "5ch 投資一般 subject",
     "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1781434022/",
-    "generatedAt": "2026-06-16T07:15:05.373Z",
-    "score": 839,
+    "generatedAt": "2026-06-16T07:26:39.926Z",
+    "score": 843,
     "titlePriority": 20,
     "replies": [
       [
