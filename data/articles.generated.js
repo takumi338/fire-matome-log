@@ -18,7 +18,7 @@ window.FIRE_GENERATED_ARTICLES = [
     "status": "draft",
     "sourceName": "5ch 投資一般 subject",
     "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1779513887/",
-    "generatedAt": "2026-06-16T07:26:39.901Z",
+    "generatedAt": "2026-06-16T07:30:16.395Z",
     "score": 179,
     "titlePriority": 120,
     "replies": [
@@ -103,7 +103,7 @@ window.FIRE_GENERATED_ARTICLES = [
     "status": "draft",
     "sourceName": "5ch 投資一般 subject",
     "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1770037756/",
-    "generatedAt": "2026-06-16T07:26:39.900Z",
+    "generatedAt": "2026-06-16T07:30:16.393Z",
     "score": 165,
     "titlePriority": 120,
     "replies": [
@@ -184,7 +184,7 @@ window.FIRE_GENERATED_ARTICLES = [
     "status": "draft",
     "sourceName": "5ch 投資一般 subject",
     "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1781319177/",
-    "generatedAt": "2026-06-16T07:26:39.915Z",
+    "generatedAt": "2026-06-16T07:30:16.408Z",
     "score": 1480,
     "titlePriority": 20,
     "replies": [
@@ -419,7 +419,7 @@ window.FIRE_GENERATED_ARTICLES = [
     "status": "draft",
     "sourceName": "5ch 投資一般 subject",
     "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1780454400/",
-    "generatedAt": "2026-06-16T07:26:39.923Z",
+    "generatedAt": "2026-06-16T07:30:16.416Z",
     "score": 1214,
     "titlePriority": 20,
     "replies": [
@@ -640,8 +640,8 @@ window.FIRE_GENERATED_ARTICLES = [
     "title": "金融資産5000万円以上1億円未満の人達の日常 116",
     "category": "失敗談",
     "date": "2026.06.16",
-    "views": 122235,
-    "comments": 242,
+    "views": 122960,
+    "comments": 244,
     "summary": "税金、暴落耐性、退職ライン、NISAを中心に、FIRE計画の現実ラインを話し合う流れ。",
     "conclusion": "金融資産5000万円以上1億円未満の人達の日常 116では、税金、暴落耐性、退職ライン、NISAを軸に投資先や積立の考え方、暴落時の耐性、仕事を続けるか辞めるかの現実感が話題になりました。全体としては、資産額だけで判断するより、生活費、現金余力、相場が悪い時の動き方、働き方の逃げ道まで含めてFIRE計画を見る流れです。",
     "thumbnail": "assets/thumb-tax-paperwork.png",
@@ -654,8 +654,8 @@ window.FIRE_GENERATED_ARTICLES = [
     "status": "draft",
     "sourceName": "5ch 投資一般 subject",
     "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1781434022/",
-    "generatedAt": "2026-06-16T07:26:39.926Z",
-    "score": 843,
+    "generatedAt": "2026-06-16T07:30:16.420Z",
+    "score": 848,
     "titlePriority": 20,
     "replies": [
       [
