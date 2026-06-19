@@ -26,7 +26,7 @@ jobs:
         run: |
           git config user.name "fire-matome-bot"
           git config user.email "fire-matome-bot@example.com"
-          git add data/articles.generated.js articles sitemap.xml
+          git add data/articles.generated.js articles index.html sitemap.xml feed.xml
           git diff --cached --quiet || git commit -m "Generate daily FIRE matome draft"
           git push
       - name: Validate FTP secrets
