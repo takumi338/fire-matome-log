@@ -4,39 +4,25 @@ window.FIRE_GENERATED_ARTICLES = [
     "title": "金融資産1億円以上2億円未満の人達の日常",
     "category": "資産形成",
     "date": "2026.06.19",
-    "views": 8700,
-    "comments": 470,
+    "views": 8120,
+    "comments": 4,
     "summary": "資産形成を中心に、FIRE計画の現実ラインを話し合う流れ。",
-    "conclusion": "金融資産1億円以上2億円未満の人達の日常では、資産形成を軸に暴落時の耐性が話題になりました。全体としては、資産額だけで判断するより、生活費、現金余力、相場が悪い時の動き方、働き方の逃げ道まで含めてFIRE計画を見る流れです。",
+    "conclusion": "金融資産1億円以上2億円未満の人達の日常では、資産形成を軸に資産額と生活設計のバランスが話題になりました。全体としては、資産額だけで判断するより、生活費、現金余力、相場が悪い時の動き方、働き方の逃げ道まで含めてFIRE計画を見る流れです。",
     "thumbnail": "assets/thumb-asset-growth.png",
     "tags": [],
     "status": "draft",
     "sourceName": "5ch 投資一般 subject",
-    "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1781706631/",
-    "generatedAt": "2026-06-19T01:26:54.212Z",
-    "score": 60,
+    "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1781795169/",
+    "generatedAt": "2026-06-19T06:06:06.654Z",
+    "score": 56,
     "titlePriority": 40,
     "replies": [
       [
         "1",
         "",
-        "ID:yyCanJisr",
-        "2026/06/17(水) 23:30:31.60",
-        "!extend:checked:vvvvvv:1000:512:donguri=1/3: 前スレ - VIPQ2_EXTDAT: checked:vvvvvv:1000:512:donguri=1/3: EXT was configured VIPQ2_EXTDAT: checked:vvvvvv:1000:512:donguri=1/3: EXT was configured"
-      ],
-      [
-        "6",
-        "",
-        "ID:bn9UKabK0",
-        "2026/06/18(木) 13:07:33.18",
-        "さすがに日経上がりすぎて怖い まあワイの持ち株はカスみたいな動きだが 下がってないだけマシか 月末に配当もらえるし"
-      ],
-      [
-        "7",
-        "",
-        "ID:wGca5Q9S0",
-        "2026/06/18(木) 13:30:10.55",
-        "半導体は乗れてないけど、銀行は保有してるので幾分かマシかな メガバンは個人投資家でも保有してる人多いだろー"
+        "ID:twkQhsMgr",
+        "2026/06/19(金) 00:06:09.73",
+        "!extend:checked:vvvvvv:1000:512:donguri=1/3: 金融資産1億円以上2億円未満の日常を語るスレです。 不動産を除いた金融資産のみで1億円～2億円を持つ方を対象にします。 ゆったりと日常生活を語りましょう。 VIPQ2_EXTDAT: checked:vvvvvv:1000:512:donguri=1/3: EXT was configured"
       ]
     ]
   },
