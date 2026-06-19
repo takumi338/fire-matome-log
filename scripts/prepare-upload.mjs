@@ -7,7 +7,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const DIST_DIR = path.join(ROOT, "dist");
 
-const FILES = ["index.html", "styles.css", "script.js", "robots.txt", "sitemap.xml", "site.webmanifest"];
+const FILES = ["index.html", "styles.css", "script.js", "robots.txt", "sitemap.xml", "feed.xml", "site.webmanifest"];
 const DIRS = ["articles"];
 const EXCLUDED_ASSETS = new Set(["ogp-work.png"]);
 

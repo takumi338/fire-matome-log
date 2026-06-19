@@ -11,6 +11,7 @@ const SCRIPT_PATH = path.join(ROOT, "script.js");
 const GENERATED_PATH = path.join(ROOT, "data", "articles.generated.js");
 const ARTICLES_DIR = path.join(ROOT, "articles");
 const SITEMAP_PATH = path.join(ROOT, "sitemap.xml");
+const FEED_PATH = path.join(ROOT, "feed.xml");
 const SITE_URL = "https://fire.development-test.com";
 const SITE_NAME = "FIREまとめログ";
 const SITE_DESCRIPTION = "FIRE、早期リタイア、資産形成、NISA、節約、副業などの5chスレッドを読みやすくまとめるサイトです。";
@@ -35,6 +36,7 @@ async function main() {
   }
 
   await writeSitemap(articles);
+  await writeFeed(articles);
 
   console.log(`Built article pages: ${articles.length}`);
 }
@@ -82,24 +84,51 @@ function renderPage(article, ranking) {
   const publishedTime = publishedDate ? `${publishedDate}T00:00:00+09:00` : undefined;
   const jsonLd = renderJsonLd({
     "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    mainEntityOfPage: pageUrl,
-    headline: article.title,
-    description,
-    image: OGP_IMAGE_URL,
-    datePublished: publishedTime,
-    dateModified: publishedTime,
-    articleSection: article.category,
-    keywords: (article.tags || []).join(", "),
-    author: {
-      "@type": "Organization",
-      name: SITE_NAME,
-    },
-    publisher: {
-      "@type": "Organization",
-      name: SITE_NAME,
-    },
-    inLanguage: "ja",
+    "@graph": [
+      {
+        "@type": "BlogPosting",
+        mainEntityOfPage: pageUrl,
+        headline: article.title,
+        description,
+        image: OGP_IMAGE_URL,
+        datePublished: publishedTime,
+        dateModified: publishedTime,
+        articleSection: article.category,
+        keywords: (article.tags || []).join(", "),
+        author: {
+          "@type": "Organization",
+          name: SITE_NAME,
+        },
+        publisher: {
+          "@type": "Organization",
+          name: SITE_NAME,
+        },
+        inLanguage: "ja",
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: SITE_NAME,
+            item: `${SITE_URL}/`,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: article.category || "まとめ",
+            item: `${SITE_URL}/#${encodeURIComponent(article.category || "まとめ")}`,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: article.title,
+            item: pageUrl,
+          },
+        ],
+      },
+    ],
   });
 
   return `<!doctype html>
@@ -116,6 +145,7 @@ function renderPage(article, ranking) {
     <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg?v=20260616-logo" />
     <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
+    <link rel="alternate" type="application/rss+xml" title="${SITE_NAME} RSS" href="/feed.xml" />
     <meta property="og:locale" content="ja_JP" />
     <meta property="og:site_name" content="${SITE_NAME}" />
     <meta property="og:type" content="article" />
@@ -231,6 +261,36 @@ ${urls.map(renderSitemapUrl).join("\n")}
 </urlset>
 `;
   await writeFile(SITEMAP_PATH, xml);
+}
+
+async function writeFeed(articles) {
+  const latest = [...articles].sort((a, b) => String(b.date || "").localeCompare(String(a.date || ""))).slice(0, 30);
+  const items = latest.map(renderFeedItem).join("\n");
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>${escapeXml(SITE_NAME)}</title>
+    <link>${escapeXml(`${SITE_URL}/`)}</link>
+    <description>${escapeXml(SITE_DESCRIPTION)}</description>
+    <language>ja</language>
+    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+${items}
+  </channel>
+</rss>
+`;
+  await writeFile(FEED_PATH, xml);
+}
+
+function renderFeedItem(article) {
+  const url = articleUrl(article);
+  const pubDate = toIsoDate(article.date);
+  return `    <item>
+      <title>${escapeXml(article.title)}</title>
+      <link>${escapeXml(url)}</link>
+      <guid>${escapeXml(url)}</guid>
+      <description>${escapeXml(metaDescription(article))}</description>
+      ${pubDate ? `<pubDate>${new Date(`${pubDate}T00:00:00+09:00`).toUTCString()}</pubDate>` : ""}
+    </item>`;
 }
 
 function renderSitemapUrl(item) {

@@ -4,10 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "collect": "node scripts/daily-fire-matome.mjs && node scripts/build-article-pages.mjs",
-    "collect:quiet": "node scripts/daily-fire-matome.mjs --quiet && node scripts/build-article-pages.mjs",
-    "build:articles": "node scripts/build-article-pages.mjs",
+    "collect": "node scripts/daily-fire-matome.mjs && node scripts/build-article-pages.mjs && node scripts/build-index-page.mjs",
+    "collect:quiet": "node scripts/daily-fire-matome.mjs --quiet && node scripts/build-article-pages.mjs && node scripts/build-index-page.mjs",
+    "build:articles": "node scripts/build-article-pages.mjs && node scripts/build-index-page.mjs",
     "prepare:upload": "node scripts/prepare-upload.mjs",
-    "check": "node --check script.js && node --check scripts/article-thumbnails.mjs && node --check scripts/daily-fire-matome.mjs && node --check scripts/build-article-pages.mjs && node --check scripts/prepare-upload.mjs"
+    "check": "node --check script.js && node --check scripts/article-thumbnails.mjs && node --check scripts/daily-fire-matome.mjs && node --check scripts/build-article-pages.mjs && node --check scripts/build-index-page.mjs && node --check scripts/prepare-upload.mjs"
   }
 }

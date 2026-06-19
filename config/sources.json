@@ -1,6 +1,6 @@
 {
   "siteName": "FIREまとめログ",
-  "userAgent": "FireMatomePrototype/0.1 (+https://example.com/contact)",
+  "userAgent": "FireMatomeLog/1.0 (+https://fire.development-test.com/)",
   "maxDraftsPerRun": 2,
   "maxGeneratedArticles": 120,
   "maxThreadsPerList": 80,
