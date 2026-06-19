@@ -8,6 +8,7 @@
   "maxReplyInputLength": 520,
   "maxReplyOutputLength": 220,
   "minReplyScore": 2,
+  "minTitleFocusScore": 40,
   "keepHistoricalDrafts": true,
   "sources": [
     {

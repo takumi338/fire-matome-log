@@ -44,18 +44,33 @@ const FIRE_KEYWORDS = [
   "現金比率",
 ];
 
-const TITLE_PRIORITY_KEYWORDS = [
+const PRIMARY_TITLE_FOCUS_KEYWORDS = [
   "fire",
   "FIRE",
   "早期リタイア",
   "セミリタイア",
-  "リタイア",
   "サイドFIRE",
+  "リタイア",
   "ファイア",
   "ファイアー",
   "経済的自立",
-  "金融資産",
-  "資産形成",
+];
+
+const SECONDARY_TITLE_FOCUS_KEYWORDS = [
+  "半隠居",
+  "早期退職",
+  "退職",
+  "隠居",
+  "配当生活",
+  "不労所得",
+  "取り崩し",
+  "4%ルール",
+];
+
+const SECONDARY_TITLE_FOCUS_PATTERNS = [
+  /金融資産.*(?:以上|未満|日常)/,
+  /(?:勝ち逃げ|逃げ切り).*ファイア/,
+  /(?:ファイア|FIRE).*(?:勝ち逃げ|逃げ切り)/i,
 ];
 
 const INTEREST_KEYWORDS = [
@@ -121,7 +136,10 @@ async function main() {
     .map((thread) => buildDraft(thread, config))
     .filter(Boolean)
     .sort((a, b) => b.titlePriority - a.titlePriority || b.score - a.score);
-  const existing = config.keepHistoricalDrafts === false ? [] : await readGeneratedArticles();
+  const existing =
+    config.keepHistoricalDrafts === false
+      ? []
+      : (await readGeneratedArticles()).filter((article) => isCollectableThreadTitle(article.title, config));
   const existingKeys = new Set(existing.map(articleKey));
   const drafts = candidates
     .filter((article) => !existingKeys.has(articleKey(article)))
@@ -160,7 +178,7 @@ async function collectSource(source, config) {
         titlePriority: scoreTitlePriority(link.title),
         score: scoreText(`${link.title} ${link.context}`),
       }))
-      .filter((link) => link.score > 0)
+      .filter((link) => isCollectableThreadTitle(link.title, config) && link.score > 0)
       .sort((a, b) => b.titlePriority - a.titlePriority || b.score - a.score)
       .slice(0, source.maxThreads || config.maxThreadsPerList || 5);
 
@@ -186,7 +204,7 @@ async function collectSource(source, config) {
         titlePriority: scoreTitlePriority(thread.title),
         score: scoreText(thread.title),
       }))
-      .filter((thread) => thread.score > 0)
+      .filter((thread) => isCollectableThreadTitle(thread.title, config) && thread.score > 0)
       .sort((a, b) => b.titlePriority - a.titlePriority || b.score - a.score || b.comments - a.comments)
       .slice(0, source.maxThreads || config.maxThreadsPerList || 5);
 
@@ -435,9 +453,12 @@ function parseReply(meta, body, index) {
 }
 
 function buildDraft(thread, config) {
-  const titlePriority = scoreTitlePriority(thread.title);
+  const title = threadTitle(thread);
+  if (!isCollectableThreadTitle(title, config)) return null;
+
+  const titlePriority = scoreTitlePriority(title);
   const threadScore =
-    titlePriority + scoreText(thread.title) + thread.replies.reduce((sum, reply) => sum + scoreReply(reply, thread.title, config), 0);
+    titlePriority + scoreText(title) + thread.replies.reduce((sum, reply) => sum + scoreReply(reply, title, config), 0);
   if (threadScore <= 0) return null;
 
   const maxReplies = config.maxRepliesPerDraft || 7;
@@ -451,19 +472,19 @@ function buildDraft(thread, config) {
 
   if (!picked.length) return null;
 
-  const tags = buildTags(thread, picked);
-  const category = chooseCategory(tags, thread.title);
-  const id = `${todayStamp()}-${slugify(thread.title).slice(0, 38) || hash(thread.sourceUrl).slice(0, 10)}`;
+  const tags = buildTags({ ...thread, title }, picked);
+  const category = chooseCategory(tags, title);
+  const id = `${todayStamp()}-${slugify(title).slice(0, 38) || hash(thread.sourceUrl).slice(0, 10)}`;
 
   return {
     id,
-    title: makeDraftTitle(thread),
+    title: makeDraftTitle({ ...thread, title }),
     category,
     date: formatDate(new Date()),
     views: Math.max(1200, Math.round(threadScore * 145)),
     comments: thread.replies.length,
-    summary: makeSummary(thread, picked),
-    conclusion: makeConclusion(thread, picked, tags),
+    summary: makeSummary({ ...thread, title }, picked),
+    conclusion: makeConclusion({ ...thread, title }, picked, tags),
     thumbnail: selectArticleThumbnail({
       title: thread.title,
       category,
@@ -493,11 +514,30 @@ function scoreText(text) {
 }
 
 function scoreTitlePriority(text) {
-  const lower = String(text || "").toLowerCase();
-  return TITLE_PRIORITY_KEYWORDS.reduce((sum, keyword) => {
-    if (!lower.includes(keyword.toLowerCase())) return sum;
-    return sum + (/fire|リタイア|ファイア/.test(keyword.toLowerCase()) ? 60 : 20);
-  }, 0);
+  return scoreTitleFocus(text);
+}
+
+function scoreTitleFocus(text) {
+  const value = String(text || "");
+  const lower = value.toLowerCase();
+  const primaryScore = PRIMARY_TITLE_FOCUS_KEYWORDS.reduce(
+    (sum, keyword) => sum + (lower.includes(keyword.toLowerCase()) ? 90 : 0),
+    0,
+  );
+  const secondaryScore = SECONDARY_TITLE_FOCUS_KEYWORDS.reduce(
+    (sum, keyword) => sum + (lower.includes(keyword.toLowerCase()) ? 45 : 0),
+    0,
+  );
+  const patternScore = SECONDARY_TITLE_FOCUS_PATTERNS.reduce((sum, pattern) => sum + (pattern.test(value) ? 40 : 0), 0);
+  return primaryScore + secondaryScore + patternScore;
+}
+
+function isCollectableThreadTitle(text, config = {}) {
+  return scoreTitleFocus(text) >= (config.minTitleFocusScore || 40);
+}
+
+function threadTitle(thread) {
+  return decodeEntities(decodeEntities(normalizeText(thread.listTitle || thread.title || "")));
 }
 
 function scoreReply(reply, context = "", config = {}) {
@@ -655,12 +695,15 @@ async function readGeneratedArticles() {
 }
 
 function mergeArticles(newDrafts, existing, maxArticles = 30) {
-  const seen = new Set();
+  const seenKeys = new Set();
+  const seenTitles = new Set();
   return [...newDrafts, ...existing]
     .filter((article) => {
       const key = articleKey(article);
-      if (seen.has(key)) return false;
-      seen.add(key);
+      const titleKey = articleTitleKey(article);
+      if (seenKeys.has(key) || seenTitles.has(titleKey)) return false;
+      seenKeys.add(key);
+      if (titleKey) seenTitles.add(titleKey);
       return true;
     })
     .slice(0, maxArticles);
@@ -668,6 +711,10 @@ function mergeArticles(newDrafts, existing, maxArticles = 30) {
 
 function articleKey(article) {
   return article.sourceUrl || article.id;
+}
+
+function articleTitleKey(article) {
+  return normalizeText(String(article.title || "")).replace(/\s+/g, " ").toLowerCase();
 }
 
 async function writeGeneratedArticles(articles) {
