@@ -710,11 +710,13 @@ function mergeArticles(newDrafts, existing, maxArticles = 30) {
 }
 
 function articleKey(article) {
-  return article.sourceUrl || article.id;
+  const sourceKey = article.sourceUrl || article.id;
+  return `${sourceKey}::${article.date || ""}`;
 }
 
 function articleTitleKey(article) {
-  return normalizeText(String(article.title || "")).replace(/\s+/g, " ").toLowerCase();
+  const title = normalizeText(String(article.title || "")).replace(/\s+/g, " ").toLowerCase();
+  return title ? `${title}::${article.date || ""}` : "";
 }
 
 async function writeGeneratedArticles(articles) {
