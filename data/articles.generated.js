@@ -1,5 +1,77 @@
 window.FIRE_GENERATED_ARTICLES = [
   {
+    "id": "2026-06-24-44-barista-fire",
+    "title": "【セミリタイア】半隠居その44【Barista FIRE】",
+    "category": "資産形成",
+    "date": "2026.06.24",
+    "views": 68440,
+    "comments": 484,
+    "summary": "退職ラインを中心に、FIRE計画の現実ラインを話し合う流れ。",
+    "conclusion": "【セミリタイア】半隠居その44【Barista FIRE】では、退職ラインを軸に仕事を続けるか辞めるかの現実感が話題になりました。全体としては、資産額だけで判断するより、生活費、現金余力、相場が悪い時の動き方、働き方の逃げ道まで含めてFIRE計画を見る流れです。",
+    "thumbnail": "assets/thumb-retire-life.png",
+    "tags": [
+      "退職ライン"
+    ],
+    "status": "draft",
+    "sourceName": "5ch 投資一般 subject",
+    "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1782100500/",
+    "generatedAt": "2026-06-23T22:10:40.690Z",
+    "score": 472,
+    "titlePriority": 450,
+    "replies": [
+      [
+        "4",
+        "",
+        "ID:+c91DVZm0",
+        "2026/06/22(月) 13:07:45.31",
+        ">>3 でもありがたいよ おつ"
+      ],
+      [
+        "7",
+        "",
+        "ID:YIGVoP8K0",
+        "2026/06/23(火) 06:53:26.40",
+        "リタイアスレ荒らされてんなぁ"
+      ],
+      [
+        "9",
+        "",
+        "ID:OEONAm4vF",
+        "2026/06/23(火) 09:27:07.05",
+        "株式板のリタイアスレも荒らされているし、やっぱりリタイアスレだけを狙い撃ちにされているな 情報交換させたくないんやろ"
+      ]
+    ]
+  },
+  {
+    "id": "2026-06-24-45-barista-fire",
+    "title": "【セミリタイア】半隠居その45【Barista FIRE】",
+    "category": "資産形成",
+    "date": "2026.06.24",
+    "views": 67860,
+    "comments": 4,
+    "summary": "退職ラインを中心に、FIRE計画の現実ラインを話し合う流れ。",
+    "conclusion": "【セミリタイア】半隠居その45【Barista FIRE】では、退職ラインを軸に資産額と生活設計のバランスが話題になりました。全体としては、資産額だけで判断するより、生活費、現金余力、相場が悪い時の動き方、働き方の逃げ道まで含めてFIRE計画を見る流れです。",
+    "thumbnail": "assets/thumb-retire-life.png",
+    "tags": [
+      "退職ライン"
+    ],
+    "status": "draft",
+    "sourceName": "5ch 投資一般 subject",
+    "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1782212404/",
+    "generatedAt": "2026-06-23T22:10:40.691Z",
+    "score": 468,
+    "titlePriority": 450,
+    "replies": [
+      [
+        "4",
+        "",
+        "ID:GubKhgiZ0",
+        "2026/06/23(火) 22:18:49.27",
+        ">>3 ﾊﾟﾝ 彡⌒ミ ﾊﾟﾝﾊﾟﾝﾊﾟﾝﾊﾟﾝﾊﾟﾝﾊﾟﾝﾊﾟﾝﾊﾟﾝ ﾊﾟﾝ( `･ω･) ﾊﾟﾝﾊﾟﾝﾊﾟﾝﾊﾟﾝﾊﾟﾝﾊﾟﾝﾊﾟﾝ (( （ つ つ彡⌒ミ ),ｨ⌒( ･ω･) （_（__人__,つ ､つ"
+      ]
+    ]
+  },
+  {
     "id": "2026-06-23-1000-3000-71",
     "title": "金融資産1000万円以上3000万未満の人達の日常 71",
     "category": "失敗談",
