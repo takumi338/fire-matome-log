@@ -7,13 +7,19 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://fire.development-test.com/articles/2026-07-18-3000-5000-113.html</loc>
+    <loc>https://fire.development-test.com/articles/2026-07-18-5000-1-146.html</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://fire.development-test.com/articles/2026-07-18-5000-1-146.html</loc>
+    <loc>https://fire.development-test.com/articles/2026-07-18-5000-1-151.html</loc>
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://fire.development-test.com/articles/2026-07-18-3000-5000-113.html</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -716,12 +722,6 @@
   </url>
   <url>
     <loc>https://fire.development-test.com/articles/2026-07-04-1-2-ip-01.html</loc>
-    <lastmod>2026-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fire.development-test.com/articles/2026-07-04-3000-5000-104.html</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
