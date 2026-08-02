@@ -1,5 +1,34 @@
 window.FIRE_GENERATED_ARTICLES = [
   {
+    "id": "2026-08-03-5-000-1-189",
+    "title": "金融資産5,000万円以上1億円未満の人達の日常 189",
+    "category": "資産形成",
+    "date": "2026.08.03",
+    "views": 7830,
+    "comments": 3,
+    "summary": "NISAを中心に、FIRE計画の現実ラインを話し合う流れ。",
+    "conclusion": "金融資産5,000万円以上1億円未満の人達の日常 189では、NISAを軸に投資先や積立の考え方が話題になりました。全体としては、資産額だけで判断するより、生活費、現金余力、相場が悪い時の動き方、働き方の逃げ道まで含めてFIRE計画を見る流れです。",
+    "thumbnail": "assets/thumb-nisa-index.png",
+    "tags": [
+      "NISA"
+    ],
+    "status": "draft",
+    "sourceName": "5ch 投資一般 subject",
+    "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1785680881/",
+    "generatedAt": "2026-08-02T23:48:04.597Z",
+    "score": 54,
+    "titlePriority": 40,
+    "replies": [
+      [
+        "3",
+        "",
+        "ID:JbfI27MV0",
+        "2026/08/03(月) 06:55:21.92",
+        "毎日スレを荒らす根気をインデックス積立投資に向けられたらいいのに いつか前向きになれる日を願いつつこっちのスレ立ても継続ね ここの住民だった人達は避難先へどぞ！"
+      ]
+    ]
+  },
+  {
     "id": "2026-08-03-1000-3000-109",
     "title": "金融資産1000万円以上3000万未満の人達の日常 109",
     "category": "資産形成",
@@ -7010,33 +7039,6 @@ window.FIRE_GENERATED_ARTICLES = [
         "ID:SKZjBXBF0",
         "2026/07/06(月) 13:44:56.10",
         "早期リタイアして主夫FIREしとる"
-      ]
-    ]
-  },
-  {
-    "id": "2026-07-14-18",
-    "title": "【半隠居】セミリタイアスレ★18",
-    "category": "資産形成",
-    "date": "2026.07.14",
-    "views": 40600,
-    "comments": 6,
-    "summary": "資産形成を中心に、FIRE計画の現実ラインを話し合う流れ。",
-    "conclusion": "【半隠居】セミリタイアスレ★18では、資産形成を軸に資産額と生活設計のバランスが話題になりました。全体としては、資産額だけで判断するより、生活費、現金余力、相場が悪い時の動き方、働き方の逃げ道まで含めてFIRE計画を見る流れです。",
-    "thumbnail": "assets/thumb-retire-life.png",
-    "tags": [],
-    "status": "draft",
-    "sourceName": "5ch 投資一般 subject",
-    "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1783336875/",
-    "generatedAt": "2026-07-13T23:41:32.797Z",
-    "score": 280,
-    "titlePriority": 270,
-    "replies": [
-      [
-        "4",
-        "",
-        "ID:avnGeuOi0",
-        "2026/07/12(日) 10:01:17.08",
-        "↑ ﾋﾞｼｯ ／￣￣￣￣＼ ／￣＼.（ 人＿＿＿＿） ,┤ ト|ミ/ ー◎-◎-） | ＼＿／ ヽ (_ _) ） | ＿_（￣ ｜∴ノ ３ ﾉ <激臭ハゲ( ・∇・) | _＿_）＿ノ ヽ ノ"
       ]
     ]
   }
