@@ -1,5 +1,66 @@
 window.FIRE_GENERATED_ARTICLES = [
   {
+    "id": "2026-08-06-3000-5000",
+    "title": "金融資産3000万円以上5000万円未満の人達の日常",
+    "category": "資産形成",
+    "date": "2026.08.06",
+    "views": 8120,
+    "comments": 488,
+    "summary": "資産形成を中心に、FIRE計画の現実ラインを話し合う流れ。",
+    "conclusion": "金融資産3000万円以上5000万円未満の人達の日常では、資産形成を軸に暴落時の耐性が話題になりました。全体としては、資産額だけで判断するより、生活費、現金余力、相場が悪い時の動き方、働き方の逃げ道まで含めてFIRE計画を見る流れです。",
+    "thumbnail": "assets/thumb-asset-growth.png",
+    "tags": [],
+    "status": "draft",
+    "sourceName": "5ch 投資一般 subject",
+    "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1785888700/",
+    "generatedAt": "2026-08-05T23:45:31.205Z",
+    "score": 56,
+    "titlePriority": 40,
+    "replies": [
+      [
+        "3",
+        "",
+        "ID:LA93utnz0",
+        "2026/08/05(水) 10:01:09.22",
+        "なんかずっと4500～4900くらいをウロウロしてるぞ"
+      ],
+      [
+        "4",
+        "",
+        "ID:A7P26/8Z0",
+        "2026/08/05(水) 10:06:26.70",
+        ">>3 同じく まあ為替リスクとか考えたら、維持できるだけでも良しと考えるようになったわ"
+      ]
+    ]
+  },
+  {
+    "id": "2026-08-06-3000-5001",
+    "title": "金融資産3000万円以上5001万円未満の人達の日常",
+    "category": "資産形成",
+    "date": "2026.08.06",
+    "views": 6960,
+    "comments": 5,
+    "summary": "資産形成を中心に、FIRE計画の現実ラインを話し合う流れ。",
+    "conclusion": "金融資産3000万円以上5001万円未満の人達の日常では、資産形成を軸に資産額と生活設計のバランスが話題になりました。全体としては、資産額だけで判断するより、生活費、現金余力、相場が悪い時の動き方、働き方の逃げ道まで含めてFIRE計画を見る流れです。",
+    "thumbnail": "assets/thumb-asset-growth.png",
+    "tags": [],
+    "status": "draft",
+    "sourceName": "5ch 投資一般 subject",
+    "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1785954091/",
+    "generatedAt": "2026-08-05T23:45:31.208Z",
+    "score": 48,
+    "titlePriority": 40,
+    "replies": [
+      [
+        "3",
+        "",
+        "ID:qVwMA0sg0",
+        "2026/08/06(木) 07:43:53.08",
+        "今日の半導体はさすがに調整するだろうから バリューは上がるんじゃない？ 続くかは知らん"
+      ]
+    ]
+  },
+  {
     "id": "2026-08-06-1-2",
     "title": "金融資産1億円以上2億円未満の人達の日常",
     "category": "資産形成",
@@ -37,33 +98,6 @@ window.FIRE_GENERATED_ARTICLES = [
         "ID:sC9RdXDA0",
         "2026/08/05(水) 09:23:24.52",
         ">>7 今普通にいるやんw"
-      ]
-    ]
-  },
-  {
-    "id": "2026-08-06-3000-5000",
-    "title": "金融資産3000万円以上5000万円未満の人達の日常",
-    "category": "資産形成",
-    "date": "2026.08.06",
-    "views": 8410,
-    "comments": 487,
-    "summary": "資産形成を中心に、FIRE計画の現実ラインを話し合う流れ。",
-    "conclusion": "金融資産3000万円以上5000万円未満の人達の日常では、資産形成を軸に資産額と生活設計のバランスが話題になりました。全体としては、資産額だけで判断するより、生活費、現金余力、相場が悪い時の動き方、働き方の逃げ道まで含めてFIRE計画を見る流れです。",
-    "thumbnail": "assets/thumb-asset-growth.png",
-    "tags": [],
-    "status": "draft",
-    "sourceName": "5ch 投資一般 subject",
-    "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1785925043/",
-    "generatedAt": "2026-08-05T22:04:09.262Z",
-    "score": 58,
-    "titlePriority": 40,
-    "replies": [
-      [
-        "5",
-        "",
-        "ID:RSow/jYq0",
-        "2026/08/05(水) 20:48:31.97",
-        "住宅ローンとか負債は差し引かずの金融資産でいいの？例えば金融資産4500万、住宅ローン3000万だとここでいいの？"
       ]
     ]
   },
@@ -6466,33 +6500,6 @@ window.FIRE_GENERATED_ARTICLES = [
         "ID:SKZjBXBF0",
         "2026/07/06(月) 13:44:56.10",
         "早期リタイアして主夫FIREしとる"
-      ]
-    ]
-  },
-  {
-    "id": "2026-07-15-18",
-    "title": "【半隠居】セミリタイアスレ★18",
-    "category": "資産形成",
-    "date": "2026.07.15",
-    "views": 40600,
-    "comments": 6,
-    "summary": "資産形成を中心に、FIRE計画の現実ラインを話し合う流れ。",
-    "conclusion": "【半隠居】セミリタイアスレ★18では、資産形成を軸に資産額と生活設計のバランスが話題になりました。全体としては、資産額だけで判断するより、生活費、現金余力、相場が悪い時の動き方、働き方の逃げ道まで含めてFIRE計画を見る流れです。",
-    "thumbnail": "assets/thumb-retire-life.png",
-    "tags": [],
-    "status": "draft",
-    "sourceName": "5ch 投資一般 subject",
-    "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1783336875/",
-    "generatedAt": "2026-07-14T23:41:01.980Z",
-    "score": 280,
-    "titlePriority": 270,
-    "replies": [
-      [
-        "4",
-        "",
-        "ID:avnGeuOi0",
-        "2026/07/12(日) 10:01:17.08",
-        "↑ ﾋﾞｼｯ ／￣￣￣￣＼ ／￣＼.（ 人＿＿＿＿） ,┤ ト|ミ/ ー◎-◎-） | ＼＿／ ヽ (_ _) ） | ＿_（￣ ｜∴ノ ３ ﾉ <激臭ハゲ( ・∇・) | _＿_）＿ノ ヽ ノ"
       ]
     ]
   }
