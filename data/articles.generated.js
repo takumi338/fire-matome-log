@@ -1,5 +1,66 @@
 window.FIRE_GENERATED_ARTICLES = [
   {
+    "id": "2026-08-13-3000-5000-133",
+    "title": "金融資産3000万円以上5000万円未満の人達の日常 133",
+    "category": "資産形成",
+    "date": "2026.08.13",
+    "views": 7975,
+    "comments": 13,
+    "summary": "資産形成を中心に、FIRE計画の現実ラインを話し合う流れ。",
+    "conclusion": "金融資産3000万円以上5000万円未満の人達の日常 133では、資産形成を軸に資産額と生活設計のバランスが話題になりました。全体としては、資産額だけで判断するより、生活費、現金余力、相場が悪い時の動き方、働き方の逃げ道まで含めてFIRE計画を見る流れです。",
+    "thumbnail": "assets/thumb-asset-growth.png",
+    "tags": [],
+    "status": "draft",
+    "sourceName": "5ch 投資一般 subject",
+    "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1786582258/",
+    "generatedAt": "2026-08-13T07:08:13.578Z",
+    "score": 55,
+    "titlePriority": 40,
+    "replies": [
+      [
+        "6",
+        "",
+        "ID:BhJLFJdb0",
+        "2026/08/13(木) 11:08:09.77",
+        "40代から50代だと思うよ 孤独なのはそうだね 人と共同生活は無理な感じで育ってそうだし"
+      ],
+      [
+        "12",
+        "",
+        "ID:8adq03WO0",
+        "2026/08/13(木) 13:57:30.71",
+        "去年10月に3000万でこのスレ来たけど今4200万まできた 荒らしくんは空売りかなんかでお金ないなったから怨んでるんだろうね"
+      ]
+    ]
+  },
+  {
+    "id": "2026-08-13-1000-3000-130",
+    "title": "金融資産1000万円以上3000万未満の人達の日常 130",
+    "category": "資産形成",
+    "date": "2026.08.13",
+    "views": 7395,
+    "comments": 7,
+    "summary": "資産形成を中心に、FIRE計画の現実ラインを話し合う流れ。",
+    "conclusion": "金融資産1000万円以上3000万未満の人達の日常 130では、資産形成を軸に資産額と生活設計のバランスが話題になりました。全体としては、資産額だけで判断するより、生活費、現金余力、相場が悪い時の動き方、働き方の逃げ道まで含めてFIRE計画を見る流れです。",
+    "thumbnail": "assets/thumb-asset-growth.png",
+    "tags": [],
+    "status": "draft",
+    "sourceName": "5ch 投資一般 subject",
+    "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1786490912/",
+    "generatedAt": "2026-08-13T07:08:13.579Z",
+    "score": 51,
+    "titlePriority": 40,
+    "replies": [
+      [
+        "5",
+        "",
+        "ID:Qia5+Vip0",
+        "2026/08/13(木) 00:02:07.21",
+        ">>1 パヨクって正常ではないね"
+      ]
+    ]
+  },
+  {
     "id": "2026-08-13-5-000-1-188",
     "title": "金融資産5,000万円以上1億円未満の人達の日常 188",
     "category": "資産形成",
@@ -4206,60 +4267,6 @@ window.FIRE_GENERATED_ARTICLES = [
         "ID:gJCjI7V10",
         "2026/07/19(日) 21:46:17.95",
         "個別株に手を出し、結局インデックスのパフォーマンスが一番良かったと気付く。 愚か者は痛い目を見ないと学ばないのを体感した"
-      ]
-    ]
-  },
-  {
-    "id": "2026-07-19-5000-1",
-    "title": "荒らしはゴミ 金融資産5000万円以上1億円未満の日常",
-    "category": "資産形成",
-    "date": "2026.07.19",
-    "views": 7250,
-    "comments": 3,
-    "summary": "資産形成を中心に、FIRE計画の現実ラインを話し合う流れ。",
-    "conclusion": "荒らしはゴミ 金融資産5000万円以上1億円未満の日常では、資産形成を軸に資産額と生活設計のバランスが話題になりました。全体としては、資産額だけで判断するより、生活費、現金余力、相場が悪い時の動き方、働き方の逃げ道まで含めてFIRE計画を見る流れです。",
-    "thumbnail": "assets/thumb-asset-growth.png",
-    "tags": [],
-    "status": "draft",
-    "sourceName": "5ch 投資一般 subject",
-    "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1784428531/",
-    "generatedAt": "2026-07-19T10:17:51.212Z",
-    "score": 50,
-    "titlePriority": 40,
-    "replies": [
-      [
-        "3",
-        "",
-        "ID:6a6yKYC0H",
-        "2026/07/19(日) 18:00:35.92",
-        "荒らしは全財産30万を溶かしたやつとみた"
-      ]
-    ]
-  },
-  {
-    "id": "2026-07-19-1-2",
-    "title": "金融資産1億円以上2億円未満の人達の日常",
-    "category": "資産形成",
-    "date": "2026.07.19",
-    "views": 7250,
-    "comments": 2,
-    "summary": "資産形成を中心に、FIRE計画の現実ラインを話し合う流れ。",
-    "conclusion": "金融資産1億円以上2億円未満の人達の日常では、資産形成を軸に資産額と生活設計のバランスが話題になりました。全体としては、資産額だけで判断するより、生活費、現金余力、相場が悪い時の動き方、働き方の逃げ道まで含めてFIRE計画を見る流れです。",
-    "thumbnail": "assets/thumb-asset-growth.png",
-    "tags": [],
-    "status": "draft",
-    "sourceName": "5ch 投資一般 subject",
-    "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1784455147/",
-    "generatedAt": "2026-07-19T10:17:51.212Z",
-    "score": 50,
-    "titlePriority": 40,
-    "replies": [
-      [
-        "1",
-        "",
-        "ID:pElra1gpr",
-        "2026/07/19(日) 18:59:07.36",
-        "!extend:checked:vvvvvv:1000:512:donguri=1/3: !extend:checked:vvvvvv:1000:512:donguri=1/3: 精神分裂病のキチガイは首吊り自殺しろ 精神分裂病のキチガイは首吊り自殺しろ 精神分裂病のキチガイは首吊り自殺しろ VIPQ2_EXTDAT: checked:vvvvvv:1000:512:donguri=1/3: EXT was configured"
       ]
     ]
   }
