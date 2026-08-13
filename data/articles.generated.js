@@ -1,5 +1,59 @@
 window.FIRE_GENERATED_ARTICLES = [
   {
+    "id": "2026-08-13-5-000-1-188",
+    "title": "金融資産5,000万円以上1億円未満の人達の日常 188",
+    "category": "資産形成",
+    "date": "2026.08.13",
+    "views": 7395,
+    "comments": 492,
+    "summary": "資産形成を中心に、FIRE計画の現実ラインを話し合う流れ。",
+    "conclusion": "金融資産5,000万円以上1億円未満の人達の日常 188では、資産形成を軸に資産額と生活設計のバランスが話題になりました。全体としては、資産額だけで判断するより、生活費、現金余力、相場が悪い時の動き方、働き方の逃げ道まで含めてFIRE計画を見る流れです。",
+    "thumbnail": "assets/thumb-asset-growth.png",
+    "tags": [],
+    "status": "draft",
+    "sourceName": "5ch 投資一般 subject",
+    "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1786529505/",
+    "generatedAt": "2026-08-13T03:21:18.155Z",
+    "score": 51,
+    "titlePriority": 40,
+    "replies": [
+      [
+        "3",
+        "",
+        "ID:Qia5+Vip0",
+        "2026/08/13(木) 00:02:43.52",
+        ">>1 パヨクって、相当焦ってるね"
+      ]
+    ]
+  },
+  {
+    "id": "2026-08-13-1-2-28",
+    "title": "金融資産1億円以上2億円未満の人達の日常28",
+    "category": "資産形成",
+    "date": "2026.08.13",
+    "views": 7395,
+    "comments": 8,
+    "summary": "資産形成を中心に、FIRE計画の現実ラインを話し合う流れ。",
+    "conclusion": "金融資産1億円以上2億円未満の人達の日常28では、資産形成を軸に資産額と生活設計のバランスが話題になりました。全体としては、資産額だけで判断するより、生活費、現金余力、相場が悪い時の動き方、働き方の逃げ道まで含めてFIRE計画を見る流れです。",
+    "thumbnail": "assets/thumb-asset-growth.png",
+    "tags": [],
+    "status": "draft",
+    "sourceName": "5ch 投資一般 subject",
+    "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1786549854/",
+    "generatedAt": "2026-08-13T03:21:18.156Z",
+    "score": 51,
+    "titlePriority": 40,
+    "replies": [
+      [
+        "2",
+        "",
+        "ID:1J3zkMOA0",
+        "2026/08/13(木) 01:03:00.06",
+        "29立ってなんでまた28なんだよw"
+      ]
+    ]
+  },
+  {
     "id": "2026-08-13-1-2-ip-3",
     "title": "金融資産1億円以上2億円未満の人達の日常IPなし3",
     "category": "資産形成",
@@ -4206,60 +4260,6 @@ window.FIRE_GENERATED_ARTICLES = [
         "ID:pElra1gpr",
         "2026/07/19(日) 18:59:07.36",
         "!extend:checked:vvvvvv:1000:512:donguri=1/3: !extend:checked:vvvvvv:1000:512:donguri=1/3: 精神分裂病のキチガイは首吊り自殺しろ 精神分裂病のキチガイは首吊り自殺しろ 精神分裂病のキチガイは首吊り自殺しろ VIPQ2_EXTDAT: checked:vvvvvv:1000:512:donguri=1/3: EXT was configured"
-      ]
-    ]
-  },
-  {
-    "id": "2026-07-19-5000-1-177",
-    "title": "金融資産5000万円以上1億円未満の人達の日常 177",
-    "category": "資産形成",
-    "date": "2026.07.19",
-    "views": 7685,
-    "comments": 108,
-    "summary": "資産形成を中心に、FIRE計画の現実ラインを話し合う流れ。",
-    "conclusion": "金融資産5000万円以上1億円未満の人達の日常 177では、資産形成を軸に資産額と生活設計のバランスが話題になりました。全体としては、資産額だけで判断するより、生活費、現金余力、相場が悪い時の動き方、働き方の逃げ道まで含めてFIRE計画を見る流れです。",
-    "thumbnail": "assets/thumb-asset-growth.png",
-    "tags": [],
-    "status": "draft",
-    "sourceName": "5ch 投資一般 subject",
-    "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1784422293/",
-    "generatedAt": "2026-07-19T07:55:20.179Z",
-    "score": 53,
-    "titlePriority": 40,
-    "replies": [
-      [
-        "108",
-        "",
-        "ID:hDkV8OU80",
-        "2026/07/19(日) 15:43:33.70",
-        "自分はほとんどS&P500だから最近の荒れ相場でもそんなに影響なくこのスレに留まってられてるわ"
-      ]
-    ]
-  },
-  {
-    "id": "2026-07-19-1-2-ip-5",
-    "title": "金融資産1億円以上2億円未満の人達の日常 IPあり5",
-    "category": "資産形成",
-    "date": "2026.07.19",
-    "views": 7250,
-    "comments": 478,
-    "summary": "資産形成を中心に、FIRE計画の現実ラインを話し合う流れ。",
-    "conclusion": "金融資産1億円以上2億円未満の人達の日常 IPあり5では、資産形成を軸に投資先や積立の考え方が話題になりました。全体としては、資産額だけで判断するより、生活費、現金余力、相場が悪い時の動き方、働き方の逃げ道まで含めてFIRE計画を見る流れです。",
-    "thumbnail": "assets/thumb-asset-growth.png",
-    "tags": [],
-    "status": "draft",
-    "sourceName": "5ch 投資一般 subject",
-    "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1784269563/",
-    "generatedAt": "2026-07-18T23:40:43.404Z",
-    "score": 50,
-    "titlePriority": 40,
-    "replies": [
-      [
-        "4",
-        "",
-        "ID:cHTuBQp8r",
-        "2026/07/18(土) 10:07:44.56",
-        "僕の今のポートフォリオ FX6000万✕レバレッジ4倍 NASDAQ100 1500万 SP500 600万 オルカン（除く米国）1500万 SBI-Manリキッド1500万 BRKB 500万 DC 200万 日本株150万 現預金900万"
       ]
     ]
   }
