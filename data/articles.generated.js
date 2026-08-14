@@ -1,5 +1,32 @@
 window.FIRE_GENERATED_ARTICLES = [
   {
+    "id": "2026-08-14-1000-3000-130",
+    "title": "金融資産1000万円以上3000万未満の人達の日常 130",
+    "category": "資産形成",
+    "date": "2026.08.14",
+    "views": 7395,
+    "comments": 493,
+    "summary": "資産形成を中心に、FIRE計画の現実ラインを話し合う流れ。",
+    "conclusion": "金融資産1000万円以上3000万未満の人達の日常 130では、資産形成を軸に資産額と生活設計のバランスが話題になりました。全体としては、資産額だけで判断するより、生活費、現金余力、相場が悪い時の動き方、働き方の逃げ道まで含めてFIRE計画を見る流れです。",
+    "thumbnail": "assets/thumb-asset-growth.png",
+    "tags": [],
+    "status": "draft",
+    "sourceName": "5ch 投資一般 subject",
+    "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1786490912/",
+    "generatedAt": "2026-08-14T09:50:03.562Z",
+    "score": 51,
+    "titlePriority": 40,
+    "replies": [
+      [
+        "5",
+        "",
+        "ID:Qia5+Vip0",
+        "2026/08/13(木) 00:02:07.21",
+        ">>1 パヨクって正常ではないね"
+      ]
+    ]
+  },
+  {
     "id": "2026-08-14-3000-5000-133",
     "title": "金融資産3000万円以上5000万円未満の人達の日常 133",
     "category": "資産形成",
@@ -4288,33 +4315,6 @@ window.FIRE_GENERATED_ARTICLES = [
         "ID:JzneRcgk0",
         "2026/07/21(火) 17:03:30.49",
         "資産持ってる奴らが憎いんだろうな 自分の人生と何の関係もない人たちなのにな やばい奴だよ"
-      ]
-    ]
-  },
-  {
-    "id": "2026-07-21-3000-5000-126",
-    "title": "金融資産3000万円以上5000万円未満の人達の日常 126",
-    "category": "資産形成",
-    "date": "2026.07.21",
-    "views": 7830,
-    "comments": 472,
-    "summary": "資産形成を中心に、FIRE計画の現実ラインを話し合う流れ。",
-    "conclusion": "金融資産3000万円以上5000万円未満の人達の日常 126では、資産形成を軸に投資先や積立の考え方が話題になりました。全体としては、資産額だけで判断するより、生活費、現金余力、相場が悪い時の動き方、働き方の逃げ道まで含めてFIRE計画を見る流れです。",
-    "thumbnail": "assets/thumb-asset-growth.png",
-    "tags": [],
-    "status": "draft",
-    "sourceName": "5ch 投資一般 subject",
-    "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1784585433/",
-    "generatedAt": "2026-07-21T04:08:51.014Z",
-    "score": 54,
-    "titlePriority": 40,
-    "replies": [
-      [
-        "4",
-        "",
-        "ID:4QGbzZce0",
-        "2026/07/21(火) 07:26:13.70",
-        "30代でこの資産帯でPF8割オルカンなんですけど40年以上複利で増やし続けるチートみたいなことしてます もう会社やめていいですか？？"
       ]
     ]
   }
