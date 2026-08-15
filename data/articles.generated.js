@@ -4,32 +4,25 @@ window.FIRE_GENERATED_ARTICLES = [
     "title": "金融資産1億円以上2億円未満の人達の日常31",
     "category": "資産形成",
     "date": "2026.08.15",
-    "views": 8120,
-    "comments": 491,
+    "views": 7395,
+    "comments": 8,
     "summary": "資産形成を中心に、FIRE計画の現実ラインを話し合う流れ。",
     "conclusion": "金融資産1億円以上2億円未満の人達の日常31では、資産形成を軸に資産額と生活設計のバランスが話題になりました。全体としては、資産額だけで判断するより、生活費、現金余力、相場が悪い時の動き方、働き方の逃げ道まで含めてFIRE計画を見る流れです。",
     "thumbnail": "assets/thumb-asset-growth.png",
     "tags": [],
     "status": "draft",
     "sourceName": "5ch 投資一般 subject",
-    "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1786670622/",
-    "generatedAt": "2026-08-15T06:17:40.616Z",
-    "score": 56,
+    "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1786670621/",
+    "generatedAt": "2026-08-15T09:14:39.540Z",
+    "score": 51,
     "titlePriority": 40,
     "replies": [
       [
-        "8",
+        "7",
         "",
-        "ID:xkukYJB00",
-        "2026/08/15(土) 09:28:26.89",
-        "今日が人生で一番資産がある日"
-      ],
-      [
-        "9",
-        "",
-        "ID:OPbGQ1Wx0",
-        "2026/08/15(土) 09:50:42.46",
-        "オレは多分年初が一番資産あったな"
+        "ID:IS3CAFCU0",
+        "2026/08/15(土) 12:16:44.82",
+        "1.5憶の時、２億は目指さなくていいと思ったんだけれど、 放置していたら２億が近づいてきた。 あんまり金を使ってないし、相場もまあまあ堅調だし。 お盆もどこへ行くわけでもなく。"
       ]
     ]
   },
