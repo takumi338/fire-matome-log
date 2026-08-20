@@ -1,5 +1,80 @@
 window.FIRE_GENERATED_ARTICLES = [
   {
+    "id": "2026-08-21-3000-5000-138",
+    "title": "金融資産3000万円以上5000万円未満の人達の日常 138",
+    "category": "資産形成",
+    "date": "2026.08.21",
+    "views": 9280,
+    "comments": 470,
+    "summary": "資産形成を中心に、FIRE計画の現実ラインを話し合う流れ。",
+    "conclusion": "金融資産3000万円以上5000万円未満の人達の日常 138では、資産形成を軸に資産額と生活設計のバランスが話題になりました。全体としては、資産額だけで判断するより、生活費、現金余力、相場が悪い時の動き方、働き方の逃げ道まで含めてFIRE計画を見る流れです。",
+    "thumbnail": "assets/thumb-asset-growth.png",
+    "tags": [],
+    "status": "draft",
+    "sourceName": "5ch 投資一般 subject",
+    "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1787069054/",
+    "generatedAt": "2026-08-20T23:14:17.140Z",
+    "score": 64,
+    "titlePriority": 40,
+    "replies": [
+      [
+        "3",
+        "",
+        "ID:wTOb44wU0",
+        "2026/08/19(水) 11:49:22.43",
+        "もう3000万円きりたくないから今月中には相場戻って欲しい"
+      ],
+      [
+        "4",
+        "",
+        "ID:yu+bsQR80",
+        "2026/08/19(水) 12:25:17.38",
+        "今週は毎日マイナス、ピークより100万円ぐらい落ちた"
+      ],
+      [
+        "5",
+        "",
+        "ID:xWem8s80r",
+        "2026/08/19(水) 17:59:05.75",
+        "SKハイニクス怒りの4.5兆円自社株買い＆消却 かっけー"
+      ],
+      [
+        "7",
+        "",
+        "ID:L20vWSI00",
+        "2026/08/20(木) 09:26:45.94",
+        "4700万台から伸びないなあ 夏枯れなら仕方ないが"
+      ]
+    ]
+  },
+  {
+    "id": "2026-08-21-1-2",
+    "title": "金融資産1億円以上2億円未満の人達の日常",
+    "category": "資産形成",
+    "date": "2026.08.21",
+    "views": 7395,
+    "comments": 6,
+    "summary": "資産形成を中心に、FIRE計画の現実ラインを話し合う流れ。",
+    "conclusion": "金融資産1億円以上2億円未満の人達の日常では、資産形成を軸に資産額と生活設計のバランスが話題になりました。全体としては、資産額だけで判断するより、生活費、現金余力、相場が悪い時の動き方、働き方の逃げ道まで含めてFIRE計画を見る流れです。",
+    "thumbnail": "assets/thumb-asset-growth.png",
+    "tags": [],
+    "status": "draft",
+    "sourceName": "5ch 投資一般 subject",
+    "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1787147722/",
+    "generatedAt": "2026-08-20T23:14:17.141Z",
+    "score": 51,
+    "titlePriority": 40,
+    "replies": [
+      [
+        "4",
+        "",
+        "ID:d8sqtZXI0",
+        "2026/08/20(木) 11:57:46.54",
+        "資産スレは荒らし来なくなったな"
+      ]
+    ]
+  },
+  {
     "id": "2026-08-21-1-2-28-ip",
     "title": "金融資産1億円以上2億円未満の人達の日常28 IPなし",
     "category": "節約",
@@ -7288,60 +7363,6 @@ window.FIRE_GENERATED_ARTICLES = [
         "ID:3SLiwAkr0",
         "2026/07/29(水) 19:06:58.87",
         "1000万超えて入ってきたら荒らしがいる"
-      ]
-    ]
-  },
-  {
-    "id": "2026-07-30-1000-3000-98",
-    "title": "金融資産1000万円以上3000万未満の人達の日常 98",
-    "category": "資産形成",
-    "date": "2026.07.30",
-    "views": 7395,
-    "comments": 485,
-    "summary": "資産形成を中心に、FIRE計画の現実ラインを話し合う流れ。",
-    "conclusion": "金融資産1000万円以上3000万未満の人達の日常 98では、資産形成を軸に資産額と生活設計のバランスが話題になりました。全体としては、資産額だけで判断するより、生活費、現金余力、相場が悪い時の動き方、働き方の逃げ道まで含めてFIRE計画を見る流れです。",
-    "thumbnail": "assets/thumb-asset-growth.png",
-    "tags": [],
-    "status": "draft",
-    "sourceName": "5ch 投資一般 subject",
-    "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1785245132/",
-    "generatedAt": "2026-07-29T21:45:00.973Z",
-    "score": 51,
-    "titlePriority": 40,
-    "replies": [
-      [
-        "43",
-        "",
-        "ID:bgmBWXzU0",
-        "2026/07/29(水) 11:30:10.54",
-        ">>4 言われたらやるのかwwwwwwwww 弛んでなw"
-      ]
-    ]
-  },
-  {
-    "id": "2026-07-30-3000-5000-129",
-    "title": "金融資産3000万円以上5000万円未満の人達の日常 129",
-    "category": "資産形成",
-    "date": "2026.07.30",
-    "views": 7250,
-    "comments": 490,
-    "summary": "資産形成を中心に、FIRE計画の現実ラインを話し合う流れ。",
-    "conclusion": "金融資産3000万円以上5000万円未満の人達の日常 129では、資産形成を軸に仕事を続けるか辞めるかの現実感が話題になりました。全体としては、資産額だけで判断するより、生活費、現金余力、相場が悪い時の動き方、働き方の逃げ道まで含めてFIRE計画を見る流れです。",
-    "thumbnail": "assets/thumb-asset-growth.png",
-    "tags": [],
-    "status": "draft",
-    "sourceName": "5ch 投資一般 subject",
-    "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1785320290/",
-    "generatedAt": "2026-07-29T21:45:00.972Z",
-    "score": 50,
-    "titlePriority": 40,
-    "replies": [
-      [
-        "7",
-        "",
-        "ID:juQRXw/A0NIKU",
-        "2026/07/29(水) 19:53:38.34",
-        "下げ相場なのにお金増えてくんだけど ディフェンシブが800万がいい仕事してくれてる"
       ]
     ]
   }
