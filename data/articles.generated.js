@@ -1,5 +1,32 @@
 window.FIRE_GENERATED_ARTICLES = [
   {
+    "id": "2026-08-24-3000-5000-140",
+    "title": "金融資産3000万円以上5000万円未満の人達の日常 140",
+    "category": "資産形成",
+    "date": "2026.08.24",
+    "views": 7395,
+    "comments": 8,
+    "summary": "資産形成を中心に、FIRE計画の現実ラインを話し合う流れ。",
+    "conclusion": "金融資産3000万円以上5000万円未満の人達の日常 140では、資産形成を軸に資産額と生活設計のバランスが話題になりました。全体としては、資産額だけで判断するより、生活費、現金余力、相場が悪い時の動き方、働き方の逃げ道まで含めてFIRE計画を見る流れです。",
+    "thumbnail": "assets/thumb-asset-growth.png",
+    "tags": [],
+    "status": "draft",
+    "sourceName": "5ch 投資一般 subject",
+    "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1787481975/",
+    "generatedAt": "2026-08-24T02:15:17.138Z",
+    "score": 51,
+    "titlePriority": 40,
+    "replies": [
+      [
+        "7",
+        "",
+        "ID:4pQaa0VFM",
+        "2026/08/24(月) 08:24:40.70",
+        "4700台で頭打ちや 中間選挙まではこんな感じなんやろね"
+      ]
+    ]
+  },
+  {
     "id": "2026-08-24-3000-5000-139",
     "title": "金融資産3000万円以上5000万円未満の人達の日常 139",
     "category": "資産形成",
@@ -8057,33 +8084,6 @@ window.FIRE_GENERATED_ARTICLES = [
         "ID:9CMK4fM70",
         "2026/08/04(火) 20:06:43.99",
         ">>7 いなくならないぞw"
-      ]
-    ]
-  },
-  {
-    "id": "2026-08-04-1000-3000-115",
-    "title": "金融資産1000万円以上3000万未満の人達の日常 115",
-    "category": "資産形成",
-    "date": "2026.08.04",
-    "views": 7250,
-    "comments": 3,
-    "summary": "資産形成を中心に、FIRE計画の現実ラインを話し合う流れ。",
-    "conclusion": "金融資産1000万円以上3000万未満の人達の日常 115では、資産形成を軸に資産額と生活設計のバランスが話題になりました。全体としては、資産額だけで判断するより、生活費、現金余力、相場が悪い時の動き方、働き方の逃げ道まで含めてFIRE計画を見る流れです。",
-    "thumbnail": "assets/thumb-asset-growth.png",
-    "tags": [],
-    "status": "draft",
-    "sourceName": "5ch 投資一般 subject",
-    "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1785811705/",
-    "generatedAt": "2026-08-04T03:56:20.368Z",
-    "score": 50,
-    "titlePriority": 40,
-    "replies": [
-      [
-        "3",
-        "",
-        "ID:D7hL5I700",
-        "2026/08/04(火) 12:11:22.09",
-        "マス層の貧民がスレ立てるなよｗ せめて準富裕層の5000万円以上が最低条件だな 1000万円とか3000万円とか乱立するから荒らされる"
       ]
     ]
   }
