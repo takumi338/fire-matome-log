@@ -1,5 +1,59 @@
 window.FIRE_GENERATED_ARTICLES = [
   {
+    "id": "2026-08-26-3000-5000-141",
+    "title": "金融資産3000万円以上5000万円未満の人達の日常 141",
+    "category": "資産形成",
+    "date": "2026.08.26",
+    "views": 7395,
+    "comments": 4,
+    "summary": "資産形成を中心に、FIRE計画の現実ラインを話し合う流れ。",
+    "conclusion": "金融資産3000万円以上5000万円未満の人達の日常 141では、資産形成を軸に資産額と生活設計のバランスが話題になりました。全体としては、資産額だけで判断するより、生活費、現金余力、相場が悪い時の動き方、働き方の逃げ道まで含めてFIRE計画を見る流れです。",
+    "thumbnail": "assets/thumb-asset-growth.png",
+    "tags": [],
+    "status": "draft",
+    "sourceName": "5ch 投資一般 subject",
+    "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1787711324/",
+    "generatedAt": "2026-08-26T06:26:12.933Z",
+    "score": 51,
+    "titlePriority": 40,
+    "replies": [
+      [
+        "3",
+        "",
+        "ID:89ThlMX+M",
+        "2026/08/26(水) 14:42:38.12",
+        "しかし投資板も過疎ったね～ 一部の基地外のせいで"
+      ]
+    ]
+  },
+  {
+    "id": "2026-08-26-5-000-1-194",
+    "title": "金融資産5,000万円以上1億円未満の人達の日常 194",
+    "category": "資産形成",
+    "date": "2026.08.26",
+    "views": 7250,
+    "comments": 4,
+    "summary": "資産形成を中心に、FIRE計画の現実ラインを話し合う流れ。",
+    "conclusion": "金融資産5,000万円以上1億円未満の人達の日常 194では、資産形成を軸に資産額と生活設計のバランスが話題になりました。全体としては、資産額だけで判断するより、生活費、現金余力、相場が悪い時の動き方、働き方の逃げ道まで含めてFIRE計画を見る流れです。",
+    "thumbnail": "assets/thumb-asset-growth.png",
+    "tags": [],
+    "status": "draft",
+    "sourceName": "5ch 投資一般 subject",
+    "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1787716011/",
+    "generatedAt": "2026-08-26T06:26:12.934Z",
+    "score": 50,
+    "titlePriority": 40,
+    "replies": [
+      [
+        "4",
+        "",
+        "ID:90/DUY7/M",
+        "2026/08/26(水) 13:00:53.41",
+        "ごめん。今は2になってるね ありがとう"
+      ]
+    ]
+  },
+  {
     "id": "2026-08-26-1-2",
     "title": "金融資産1億円以上2億円未満の人達の日常",
     "category": "失敗談",
@@ -8984,81 +9038,6 @@ window.FIRE_GENERATED_ARTICLES = [
     "sourceName": "5ch 投資一般 subject",
     "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1786125389/",
     "generatedAt": "2026-08-08T21:18:11.471Z",
-    "score": 66,
-    "titlePriority": 40,
-    "replies": [
-      [
-        "5",
-        "",
-        "ID:uqGzs0p/0",
-        "2026/08/08(土) 08:46:02.61",
-        "毎日資産スレに嫉妬してスレ荒らすだけの人生ってw"
-      ],
-      [
-        "7",
-        "",
-        "ID:0cBoVNPk0",
-        "2026/08/08(土) 09:41:15.57",
-        "投資一般で全部荒らされてるわけではないんだよね。中途半端なんだよ"
-      ],
-      [
-        "17",
-        "",
-        "ID:LISjl1/R0",
-        "2026/08/08(土) 10:04:50.19",
-        ">>4 >>5 来てくれたなw"
-      ],
-      [
-        "29",
-        "",
-        "ID:o8HyNgdZ0",
-        "2026/08/08(土) 10:06:52.25",
-        ">>7 確かにな。 まあ中途半端な奴なんだな。 なので人生も中途半端"
-      ]
-    ]
-  },
-  {
-    "id": "2026-08-09-1-2",
-    "title": "金融資産1億円以上2億円未満の人達の日常",
-    "category": "資産形成",
-    "date": "2026.08.09",
-    "views": 7540,
-    "comments": 493,
-    "summary": "資産形成を中心に、FIRE計画の現実ラインを話し合う流れ。",
-    "conclusion": "金融資産1億円以上2億円未満の人達の日常では、資産形成を軸に資産額と生活設計のバランスが話題になりました。全体としては、資産額だけで判断するより、生活費、現金余力、相場が悪い時の動き方、働き方の逃げ道まで含めてFIRE計画を見る流れです。",
-    "thumbnail": "assets/thumb-asset-growth.png",
-    "tags": [],
-    "status": "draft",
-    "sourceName": "5ch 投資一般 subject",
-    "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1786170634/",
-    "generatedAt": "2026-08-08T21:18:11.473Z",
-    "score": 52,
-    "titlePriority": 40,
-    "replies": [
-      [
-        "8",
-        "",
-        "ID:yZCeeMvX0",
-        "2026/08/08(土) 18:48:21.22",
-        ">>7 うるせえコピペハゲ"
-      ]
-    ]
-  },
-  {
-    "id": "2026-08-08-3000-5000-139",
-    "title": "金融資産3000万円以上5000万円未満の人達の日常 139",
-    "category": "資産形成",
-    "date": "2026.08.08",
-    "views": 9570,
-    "comments": 517,
-    "summary": "資産形成を中心に、FIRE計画の現実ラインを話し合う流れ。",
-    "conclusion": "金融資産3000万円以上5000万円未満の人達の日常 139では、資産形成を軸に資産額と生活設計のバランスが話題になりました。全体としては、資産額だけで判断するより、生活費、現金余力、相場が悪い時の動き方、働き方の逃げ道まで含めてFIRE計画を見る流れです。",
-    "thumbnail": "assets/thumb-asset-growth.png",
-    "tags": [],
-    "status": "draft",
-    "sourceName": "5ch 投資一般 subject",
-    "sourceUrl": "https://medaka.5ch.net/test/read.cgi/market/1786125389/",
-    "generatedAt": "2026-08-08T02:47:50.024Z",
     "score": 66,
     "titlePriority": 40,
     "replies": [
