@@ -5,7 +5,21 @@
     <link>https://fire.development-test.com/</link>
     <description>FIRE、早期リタイア、資産形成、NISA、節約、副業などの5chスレッドを読みやすくまとめるサイトです。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 27 Oct 2026 05:46:39 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 11:11:13 GMT</lastBuildDate>
+    <item>
+      <title>金融資産2億円以上の人達の日常</title>
+      <link>https://fire.development-test.com/articles/2026-10-27-2.html</link>
+      <guid>https://fire.development-test.com/articles/2026-10-27-2.html</guid>
+      <description>生活費、固定費、税金、退職ラインを中心に、FIRE計画の現実ラインを話し合う流れ。</description>
+      <pubDate>Mon, 26 Oct 2026 15:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>金融資産1億円以上2億円未満の人達の日常30 IPなし</title>
+      <link>https://fire.development-test.com/articles/2026-10-27-1-2-30-ip.html</link>
+      <guid>https://fire.development-test.com/articles/2026-10-27-1-2-30-ip.html</guid>
+      <description>生活費、暴落耐性、退職ライン、NISAを中心に、FIRE計画の現実ラインを話し合う流れ。</description>
+      <pubDate>Mon, 26 Oct 2026 15:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>金融資産3000万円以上5001万未満の人達の日常</title>
       <link>https://fire.development-test.com/articles/2026-10-27-3000-5001.html</link>
@@ -201,20 +215,6 @@
       <guid>https://fire.development-test.com/articles/2026-10-23-1-2-29-ip.html</guid>
       <description>固定費、税金、暴落耐性、退職ラインを中心に、FIRE計画の現実ラインを話し合う流れ。</description>
       <pubDate>Thu, 22 Oct 2026 15:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>金融資産2億円以上の人達の日常</title>
-      <link>https://fire.development-test.com/articles/2026-10-22-2.html</link>
-      <guid>https://fire.development-test.com/articles/2026-10-22-2.html</guid>
-      <description>固定費、税金、退職ライン、NISAを中心に、FIRE計画の現実ラインを話し合う流れ。</description>
-      <pubDate>Wed, 21 Oct 2026 15:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>金融資産5000万以上1億未満の人達の日常 201</title>
-      <link>https://fire.development-test.com/articles/2026-10-22-5000-1-201.html</link>
-      <guid>https://fire.development-test.com/articles/2026-10-22-5000-1-201.html</guid>
-      <description>暴落耐性、退職ライン、NISAを中心に、FIRE計画の現実ラインを話し合う流れ。</description>
-      <pubDate>Wed, 21 Oct 2026 15:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
